@@ -7,12 +7,12 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 global.repox = 'raselcomel/RxR-Bot'
 global.branx = 'master'
 //=========== Watermark & Url ==========//
-global.wm = '© rཽᴀˢᵉˡ'
-global.wmtitle = '🌹 𝑪𝒐𝒎𝒆𝒍⋆𝑩𝒐𝒕 ⚚'
-global.wmbody = '🍃 𝑏𝑦 ༆ 𝑟𝑎𝑠𝑒𝑙  ཽ ྀ ྭ ྱ ྲ ཻ' 
-global.wmlink = 'https://www.instagram.com/rasel.ganz'
-global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
-global.linkmed = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
+global.wm = ' '
+global.wmtitle = ' '
+global.wmbody = '🍃 by ༆ aresmodz  ཽ ྀ ྭ ྱ ྲ ཻ' 
+global.wmlink = 'https://pin.it/7JtheqG'
+global.linkgc = ' '
+global.linkmed = 'https://pin.it/7JtheqG'
 
 //=========== Process Bot ============//
 global.wait = 'Tunggu sebentar ya sayang'
@@ -20,13 +20,13 @@ global.eror = 'Maaf terjadi kesalahan, silahkan coba lagi nanti'
 
 //========= Url Template Button =========//
 global.dTux = 'WEBSITE'
-global.uRlx = 'bit.ly/AcellComel' //''
+global.uRlx = 'gada' //''
 //========= Call Template Button =========//
 global.dTcx = 'Add Me'
-global.nUmx = '+62 822-5604-8971' 
+global.nUmx = '+62 818-0262-6072' 
 //================ Buttons ================//
 global.bTnx = [['DASHBOARD', '.say blum pasang:v']] //buttons map
-global.mediaMenu = 'https://telegra.ph/file/505b2a03d98bb3b8680e7.jpg'
+global.mediaMenu = 'https://pin.it/7JtheqG.jpg'
 global.lIm = 'Ⓛ'
 global.pRm = 'Ⓟ'
 global.uRl = 'Ⓤ'
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               ig\n🔥 @rasel.ganz 🔥'
+  var sticker_author = '               by\n🔥 aresmodz'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
